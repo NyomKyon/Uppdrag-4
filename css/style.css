@@ -18,5 +18,11 @@ a:link {
 .flex-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 
+}
+
+.flex-side {
+    display: flex;
+    flex-direction: row;
 }
