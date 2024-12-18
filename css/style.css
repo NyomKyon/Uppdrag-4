@@ -1,0 +1,22 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    color: #242427;
+    font-family: "Montserrat", sans-serif;
+}
+
+a:link {
+    color: #ca8e34;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+
+}
