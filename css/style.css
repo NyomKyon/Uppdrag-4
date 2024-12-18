@@ -5,6 +5,11 @@ body {
     height: 100%;
 }
 
+header, footer {
+    width: 100%;
+    
+}
+
 body {
     background-color: #ffffff;
     color: #242427;
@@ -18,11 +23,22 @@ a:link {
 .flex-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-
+    align-items: center;
 }
 
 .flex-side {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-width {
+    width:80%;
+
+}
+
+.textbox {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #e7e7e7;
 }
