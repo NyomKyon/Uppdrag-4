@@ -6,6 +6,12 @@ body {
 
 }
 
+body {
+    color: #242427;
+    font-family: "Montserrat", sans-serif;
+}
+
+
 header, footer {
     width: 100%;
     background-color: #e7e7e7;
@@ -25,12 +31,6 @@ footer {
     padding-inline: 1rem;
 }
 
-body {
-
-    color: #242427;
-    font-family: "Montserrat", sans-serif;
-}
-
 a:link {
     color: #ca8e34;
 }
@@ -48,7 +48,7 @@ a:link {
 }
 
 .content-width {
-    width:80%;
+
 }
 
 .textbox {
@@ -70,4 +70,11 @@ a:link {
 
 .trademark {
     padding-inline: 1rem
+}
+.hero {
+
+}
+
+.bot-content {
+    
 }
