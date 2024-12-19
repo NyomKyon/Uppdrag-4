@@ -7,7 +7,8 @@ body {
 
 header, footer {
     width: 100%;
-    
+    background-color: #e7e7e7;
+    padding-inline: 5rem; 
 }
 
 body {
@@ -38,7 +39,14 @@ a:link {
 }
 
 .textbox {
-    padding: 2rem;
-    margin: 1rem;
+    padding: 1rem;
+    margin: auto;
+    background-color: #e7e7e7;
+}
+
+.textbox2 {
+    padding: 1rem;
+    width: 72vh;
+    margin-top: 1.7vh;
     background-color: #e7e7e7;
 }
