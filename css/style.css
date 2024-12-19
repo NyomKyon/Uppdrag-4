@@ -45,6 +45,7 @@ a:link {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .content-width {
@@ -59,7 +60,6 @@ a:link {
 
 .textbox2 {
     padding: 1rem;
-    width: 72vh;
     margin-top: 1.7vh;
     background-color: #e7e7e7;
 }
@@ -76,5 +76,5 @@ a:link {
 }
 
 .bot-content {
-    
+
 }
