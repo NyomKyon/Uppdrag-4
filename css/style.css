@@ -37,7 +37,7 @@ a:link {
 .flex-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .flex-side {
@@ -46,10 +46,6 @@ a:link {
     justify-content: space-between;
     gap: 1rem;
     margin-inline: 4rem;
-}
-
-.content-width {
-
 }
 
 .textbox {
@@ -63,6 +59,7 @@ a:link {
     padding: 1rem;
     margin-top: 1.7vh;
     background-color: #e7e7e7;
+    width: 50%;
 }
 
 
@@ -73,16 +70,13 @@ a:link {
 .trademark {
     padding-inline: 1rem
 }
+
 .hero {
-    position: absolute;
     padding: 1rem;
     margin: 2rem;
     margin-inline: 2rem;
     margin-top: 2rem;
     background-color: #e7e7e7;
-    z-index: 1;
-    left: 15.5rem;
-    bottom: 24rem;
 }
 
 .bot-content {
@@ -91,3 +85,12 @@ a:link {
     height: 50vh;
     bottom: 0;
 }
+
+.flex-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-inline: 4rem;
+}
+
