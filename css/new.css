@@ -1,0 +1,52 @@
+body, main {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.top-background {
+    display: flex;
+    background: rgb(189,63,251);
+    background: linear-gradient(180deg, rgba(189,63,251,1) 0%, rgba(246,93,178,1) 100%);
+    justify-content: flex-end;
+}
+
+.top-content {
+    background-color: gray;
+    padding: 5rem;
+    margin: 3rem;
+}
+
+.bottom-content {
+}
+
+.bottom-top {
+    background-color: gray;
+    padding: 5rem;
+    margin: 1rem;
+}
+
+.bottom-bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-box{
+    background-color: gray;
+    padding: 5rem;
+    margin: 1rem;
+    width: 50%;
+}
+
+.footer {
+    background-color: #4B4B4B;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
