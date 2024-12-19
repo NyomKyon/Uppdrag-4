@@ -3,12 +3,21 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
+    background: rgb(189,63,251);
+    background: linear-gradient(180deg, rgba(189,63,251,1) 0%, rgba(246,93,178,1) 100%);
 }
 
 header, footer {
     width: 100%;
     background-color: #e7e7e7;
-    padding-inline: 5rem; 
+}
+
+.brand-name {
+    padding-inline: 1rem
+}
+
+.hamburger {
+    padding-inline: 1rem;
 }
 
 body {
@@ -35,7 +44,6 @@ a:link {
 
 .content-width {
     width:80%;
-
 }
 
 .textbox {
@@ -49,4 +57,12 @@ a:link {
     width: 72vh;
     margin-top: 1.7vh;
     background-color: #e7e7e7;
+}
+
+.contacts {
+    padding-inline: 1rem
+}
+
+.trademark {
+    padding-inline: 1rem
 }
