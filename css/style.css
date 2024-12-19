@@ -32,7 +32,7 @@ footer {
 }
 
 a:link {
-    color: #ca8e34;
+    color: #b564c9;
 }
 
 .flex-container {
@@ -46,6 +46,7 @@ a:link {
     flex-direction: row;
     justify-content: space-between;
     gap: 1rem;
+    margin-inline: 2rem;
 }
 
 .content-width {
@@ -64,6 +65,11 @@ a:link {
     margin-top: 1.7vh;
     background-color: #e7e7e7;
 }
+.textbox3 {
+    margin-top: 7vh;
+    margin-right: 2rem;
+    width: 70vh;
+}
 
 .contacts {
     padding-inline: 1rem
@@ -78,4 +84,7 @@ a:link {
 
 .bot-content {
     background-color: #ffffff;
+    position: fixed;
+    height: 80vh;
+    bottom: 0;
 }
