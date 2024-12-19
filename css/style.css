@@ -3,7 +3,6 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-
 }
 
 body {
@@ -38,7 +37,7 @@ a:link {
 .flex-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .flex-side {
@@ -46,17 +45,13 @@ a:link {
     flex-direction: row;
     justify-content: space-between;
     gap: 1rem;
-    margin-inline: 2rem;
-}
-
-.content-width {
-
+    margin-inline: 4rem;
 }
 
 .textbox {
     padding: 1rem;
-    margin-inline: 2rem;
-    margin-top: 2rem;
+    margin-inline: 4rem;
+    margin-top: 4rem;
     background-color: #e7e7e7;
 }
 
@@ -64,6 +59,7 @@ a:link {
     padding: 1rem;
     margin-top: 1.7vh;
     background-color: #e7e7e7;
+    width: 50%;
 }
 
 
@@ -74,21 +70,27 @@ a:link {
 .trademark {
     padding-inline: 1rem
 }
+
 .hero {
-    position: absolute;
     padding: 1rem;
     margin: 2rem;
     margin-inline: 2rem;
     margin-top: 2rem;
     background-color: #e7e7e7;
-    z-index: 1;
-    left: 15rem;
-    bottom: 30rem;
 }
 
 .bot-content {
     background-color: #ffffff;
     position: fixed;
-    height: 80vh;
+    height: 50vh;
     bottom: 0;
 }
+
+.flex-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-inline: 4rem;
+}
+
