@@ -2,49 +2,51 @@ body {
     background-color: rgba(246, 93, 178, 1);
 }
 
+/* containers och flex */
 .background {
     display: flex;
     background: rgb(189, 63, 251);
     background: linear-gradient(180deg, rgba(189, 63, 251, 1) 0%, rgba(246, 93, 178, 1) 100%);
     justify-content: center;
     padding: 30vh;
-  }
+}
 
-  .formbox {
+.formbox {
     background-color: #e7e7e7;
     border-radius: 5px;
     padding: 2rem;
-  }
+}
 
-  .center {
-    display: flex;
-    justify-content: center;
-  }
 
-  input {
+
+/* css resets */
+input {
     all: unset;
-  }
-  button {
-    all: unset;
-  }
+}
 
-  input {
+button {
+    all: unset;
+}
+
+/* form css */
+input {
     font-size: large;
     background-color: #0000001e;
     border-radius: 5px;
-    padding: 6px;
+    padding: 8px;
     margin: 5px;
-  }
+}
 
-  button {
-    color: #e7e7e7;
-    background-color: #ec19ff;
+button {
+    color: #e7e7e7ee;
+    background: linear-gradient(180deg, rgb(251, 63, 251) 0%, rgba(246, 93, 178, 1) 100%);
     border-radius: 5px;
     padding: 0.6rem;
-    padding-inline: 1rem;
+    padding-inline: 1.5rem;
     margin-top: 10px;
-  }
+    font-weight: bold;
+}
 
-  button:hover {
+button:hover {
     cursor: pointer;
-  }
+}

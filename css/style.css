@@ -18,9 +18,14 @@ h1 {
   font-size: medium;
 }
 
+h2 {
+  padding-inline: 1rem;
+}
+
 p {
   padding-inline: 1rem;
 }
+
 
 /* classes */
 
@@ -45,15 +50,22 @@ p {
   text-align: start;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
 
 .top-content {
   border-radius: 5px;
   text-align: initial;
   background-color: #e7e7e7;
   padding: 1rem;
-  margin: 3rem;
+  margin: 6rem;
+  margin-inline: 6rem;
+  max-width: 40vh;
 }
 
+/* används inte riktigt men lämnar tills vidare*/
 .bottom-content {}
 
 .bottom-top {
@@ -61,6 +73,7 @@ p {
   border-radius: 5px;
   padding: 1rem;
   margin: 3rem;
+  margin-inline: 6rem;
   position: relative;
 }
 
@@ -74,7 +87,7 @@ p {
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
-  margin-left: 3rem;
+  margin-left: 6rem;
   width: 50%;
 }
 
@@ -83,9 +96,10 @@ p {
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
-  margin-right: 3rem;
+  margin-right: 6rem;
   width: 50%;
 }
+
 
 /* Footer */
 .footer-padding {
@@ -102,13 +116,6 @@ p {
   position: fixed;
   left: 0;
   bottom: 0;
-}
-
-@media (max-width: 1270px){
-  .footer {
-    position: relative;
-  }
-
 }
 
 /* Link hover effec */
@@ -183,6 +190,49 @@ a:hover::before {
 #main {
   transition: margin-left .5s;
 
+}
+
+@media (max-width: 1270px){
+  .top-content {
+    max-width: 100%;
+  }
+  .bottom-bot {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .bottom-box-left, .bottom-box-right{
+  all: unset;
+  }
+
+  .bottom-box-left, .bottom-box-right{
+    margin: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    background-color: #e7e7e7;
+    padding-inline: 1rem;
+    padding: 1rem;
+  }
+}
+
+.button {
+    color: #e7e7e7ee;
+    background: linear-gradient(180deg, rgb(251, 63, 251) 0%, rgba(246, 93, 178, 1) 100%);
+    border-radius: 5px;
+    padding: 0.1rem;
+    padding-inline: 1.5rem;
+    margin-top: 10px;
+    font-weight: bold;
+    width: fit-content;
+}
+.button a {
+  color: #e7e7e7ee;
+}
+
+@media (max-width: 1270px){
+  .footer {
+    position: relative;
+  }
 }
 
 footer a {
