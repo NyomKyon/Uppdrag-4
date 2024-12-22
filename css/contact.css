@@ -1,0 +1,46 @@
+.background {
+    display: flex;
+    background: rgb(189, 63, 251);
+    background: linear-gradient(180deg, rgba(189, 63, 251, 1) 0%, rgba(246, 93, 178, 1) 100%);
+    justify-content: center;
+    padding: 40vh;
+  }
+
+  .formbox {
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 2rem;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
+  input {
+    all: unset;
+  }
+  button {
+    all: unset;
+  }
+
+  input {
+    font-size: large;
+    background-color: #0000001e;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 5px;
+  }
+
+  button {
+    color: #e7e7e7;
+    background-color: #ec19ff;
+    border-radius: 5px;
+    padding: 0.6rem;
+    padding-inline: 1rem;
+    margin-top: 5px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
