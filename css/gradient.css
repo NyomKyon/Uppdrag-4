@@ -1,5 +1,29 @@
-html,
-body {
+.topgradient {
     background: rgb(189,63,251);
-    background: linear-gradient(180deg, rgba(189,63,251,1) 0%, rgba(246,93,178,1) 100%);
+    background: linear-gradient(90deg, rgba(189,63,251,1) 0%, rgba(246,93,178,1) 100%);
+    margin-top: 2rem;
+    margin-inline: 12rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.botgradient {
+    background: rgb(189,63,251);
+    background: linear-gradient(270deg, rgba(189,63,251,1) 0%, rgba(246,93,178,1) 100%);
+    margin-top: 2rem;
+    margin-inline: 12rem;
+    margin-bottom: 6rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.background {
+    border-radius: 10px;
+    display: flex;
+    background-color: aliceblue;
+}
+
+img {
+    border-radius: 25px;
+    padding: 0.5rem;
 }

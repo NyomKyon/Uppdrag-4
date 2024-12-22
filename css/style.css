@@ -61,19 +61,21 @@ p {
   background-color: #e7e7e7;
   padding: 1rem;
   margin: 6rem;
-  margin-inline: 6rem;
+  margin-inline: 12rem;
   max-width: 40vh;
 }
 
 /* används inte riktigt men lämnar tills vidare*/
-.bottom-content {}
+.bottom-content {
+  padding-bottom: 5rem;
+}
 
 .bottom-top {
   background-color: #e7e7e7;
   border-radius: 5px;
   padding: 1rem;
   margin: 3rem;
-  margin-inline: 6rem;
+  margin-inline: 12rem;
   position: relative;
 }
 
@@ -87,7 +89,7 @@ p {
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
-  margin-left: 6rem;
+  margin-left: 12rem;
   width: 50%;
 }
 
@@ -96,7 +98,7 @@ p {
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
-  margin-right: 6rem;
+  margin-right: 12rem;
   width: 50%;
 }
 
@@ -193,19 +195,33 @@ a:hover::before {
 }
 
 @media (max-width: 1270px){
+  
   .top-content {
     max-width: 100%;
   }
+
+  .top-content {
+    padding-inline: 6rem;
+    margin: 1rem;
+  }
+
+  .bottom-top {
+    margin: 2rem;
+    margin-inline: 6rem;
+  }
+
   .bottom-bot {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
+
   .bottom-box-left, .bottom-box-right{
   all: unset;
   }
 
   .bottom-box-left, .bottom-box-right{
+    border-radius: 5px;
     margin: 1rem;
     margin-left: 6rem;
     margin-right: 6rem;
@@ -216,6 +232,8 @@ a:hover::before {
 }
 
 .button {
+    margin-left: 1rem;
+    margin-bottom: 0.7rem;
     color: #e7e7e7ee;
     background: linear-gradient(180deg, rgb(251, 63, 251) 0%, rgba(246, 93, 178, 1) 100%);
     border-radius: 5px;
@@ -229,7 +247,7 @@ a:hover::before {
   color: #e7e7e7ee;
 }
 
-@media (max-width: 1270px){
+@media (max-width: 1600px){
   .footer {
     position: relative;
   }

@@ -4,46 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/gradient.css">
 
     <title>Hobbies</title>
 
 
 </head>
 <body>
-    <div>
-        <header>
-            <div class="flex-side">
-                <div class="brand-name">
-                    <p>Brandname or name</p>
-                </div>
-                <div class="hamburger">
-                    <p>hamburger menu</p>
-                </div>
-            </div>
-        </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Startsida</a>
+        <a href="hobbies.html">Mina hobbies</a>
+        <a href="weblanguage.html">CSS & märkspråk</a>
+        <a href="ethicsandintegrity.html">Etik & integritet</a>
+        <a href="contact.html">Kontakta mig</a>
+    </div>
+    <nav class="navbar">
+        <span onclick="openNav()">
+            <h1 class="menu" id="menu">
+                <a href="#">Menu</a>
+            </h1>
+        </span>
+        <h1>
+            <a href="index.html">Brand name & Logo</a>
+        </h1>
+    </nav>
         
         <div>
-            <div>
+            <div class="topgradient">
+                <div  class="background">
                 <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam dolores reprehenderit perspiciatis obcaecati aperiam nesciunt fuga praesentium non sit repudiandae consectetur pariatur sapiente doloremque facilis asperiores iste cum, temporibus aspernatur.</p>
+                    <img src="img/pexels-bradikan.jpg" style="height: 50vh;">
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quod rerum cum fugit maiores. Rem corrupti illo, distinctio unde veniam quis, vel, quasi ea sapiente eaque suscipit aperiam. Suscipit, deleniti.</p>
+                    <h2>JDM Bilar</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam dolores reprehenderit perspiciatis obcaecati aperiam nesciunt fuga praesentium non sit repudiandae consectetur pariatur sapiente doloremque facilis asperiores iste cum, temporibus aspernatur.</p>
                 </div>
             </div>
         </div>
-
-        <footer>
-            <div class="flex-side">
-                <div class="contacts">
-                    <p>kontakta mig</p> 
+            <div class="botgradient">
+                <div class="background">
+                <div>
+                    <h2>MTB Enduro & downhill</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quod rerum cum fugit maiores. Rem corrupti illo, distinctio unde veniam quis, vel, quasi ea sapiente eaque suscipit aperiam. Suscipit, deleniti.</p>
                 </div>
-                <div class="trademark">
-                    <p>tm</p>
+                <div>
+                    <img src="img/pexels-koprivakart.jpg" style="height: 50vh;">
                 </div>
             </div>
-        </footer>
+        </div>
+        </div>
+
+      
+    <footer class="footer">
+        <div>
+            <p><a href="contact.html">Kontakta mig</a></p>
+        </div>
+        <div>
+            <p>Noah Edin Ringsell™</p>
+        </div>
+    </footer>
+    <script src="menu.js"></script>
     </div>
 </body>
 </html>
