@@ -1,9 +1,11 @@
+/*Mainly for gradient but also for hobbies and all other that uses the gradient*/
+
 .topgradient {
     background: rgb(189,63,251);
     background: linear-gradient(90deg, rgba(189,63,251,1) 0%, rgba(246,93,178,1) 100%);
     margin-top: 2rem;
     margin-inline: 12rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 
@@ -13,17 +15,45 @@
     margin-top: 2rem;
     margin-inline: 12rem;
     margin-bottom: 6rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 
 .background {
     border-radius: 10px;
     display: flex;
+    justify-content: space-between;
     background-color: aliceblue;
+}
+
+.background a {
+    color: rgb(231, 68, 209);
+    font-weight: bold;
+}
+
+.background h2 {
+    color: rgb(216, 52, 194);
+}
+.background p {
+    padding-inline: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 img {
     border-radius: 25px;
     padding: 0.5rem;
+    height: 50vh;
 }
+
+@media (max-width: 800px){
+    .background{
+        flex-direction: column-reverse;
+    }
+    .botgradient, .topgradient {
+        margin-inline: 0rem;
+    }
+    img {
+        width: 98%;
+        height: auto;
+    }
+  }

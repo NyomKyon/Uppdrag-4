@@ -24,6 +24,10 @@ input {
     all: unset;
 }
 
+.fullwidth input{
+    width: 70%;
+}
+
 button {
     all: unset;
 }
