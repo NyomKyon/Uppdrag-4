@@ -25,7 +25,7 @@ input {
 }
 
 .fullwidth input{
-    width: 70%;
+    width: 100%;
 }
 
 button {
@@ -37,8 +37,8 @@ input {
     font-size: large;
     background-color: #0000001e;
     border-radius: 5px;
-    padding: 8px;
-    margin: 5px;
+    margin: 8px;
+    padding: 5px;
 }
 
 button {
@@ -55,8 +55,23 @@ button:hover {
     cursor: pointer;
 }
 
+::placeholder {
+    padding: 10px;
+}
+
 @media (max-width: 1460px){
     .footer {
       position: relative;
+    }
+    .background {
+        padding-inline: 0vh;
+        
+    }
+    input {
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+        padding-left: 0;
+        margin-bottom: 1rem;
     }
   }

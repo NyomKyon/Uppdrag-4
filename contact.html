@@ -36,11 +36,17 @@
             <h2 class="center">Fyll i formulär nedan</h2>
             <form action="https://formsubmit.co/ringsellnoah@gmail.com" method="POST">
                 <!--<input type="hidden" name="_next" value="github.io/NyomKyon/thankyou"> -->
-                <div><input type="text" name="name" placeholder="Full namn" required>
+                <div>
+                    <input type="text" name="name" placeholder="Förnamn" required>
+                    <input type="text" name="name" placeholder="Efternamn" required>
+                </div>
+                <div>
+                    <input type="text" name="number" placeholder="Telefonnummer">
                     <input type="email" name="email" placeholder="Email" required>
                 </div>
-                <input type="text" name="number" placeholder="Telefonnummer">
-                <div class="fullwidth"><input type="text" name="message" placeholder="Meddelande" required></div>
+                <div class="fullwidth">
+                    <input type="text" name="message" placeholder="Meddelande" required>
+                </div>
                 <input type="hidden" name="_captcha" value="false">
                 <div class="center">
                     <button type="submit">Skicka</button>
