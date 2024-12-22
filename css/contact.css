@@ -24,15 +24,15 @@ input {
     all: unset;
 }
 
-.fullwidth input{
-    width: 100%;
-}
-
 button {
     all: unset;
 }
 
-/* form css */
+/* tranformerande css */
+.fullwidth input{
+    width: 100%;
+}
+
 input {
     font-size: large;
     background-color: #0000001e;
