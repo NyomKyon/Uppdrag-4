@@ -33,6 +33,22 @@ button {
     width: 100%;
 }
 
+
+
+.flexdown {
+
+
+
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    width: 40vh;
+    background-color: #e7e7e7;
+}
 input {
     font-size: large;
     background-color: #0000001e;
