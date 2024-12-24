@@ -62,13 +62,16 @@ Ser inte hur? jag ska göra eller titta efter detta om jag inte läser igen kode
 
 Den manifesteras exakt som jag vill och planerade att den ska, känner att jag har full kontroll över den, om det är något jag behöver ändra på så kan jag ändra på den.
 
+### JS
+Javascripten används för att gömma element och för att dra fram menyn på sidan.
+
 ## Webbläsar test
-Testat i Brave & google browser och har testat den genom inspect elementet för att testa mobilanpassning
+Testat i Brave & google browser och har testat den genom inspect elementet för att testa mobilanpassning.
 
 ## Tillgänglighet
 Går att navigera hela sidan med tab och enter och är mobilanpassad, inga kontrast errors förutom på mindre/icke viktiga länkar.
 
-
+Använde också Wave (google tilläg för att titta tillgänglighet och anpassning samt errors)för att testa sidan.
 
 # Källor/hjälpmedel
 
