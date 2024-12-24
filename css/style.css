@@ -71,7 +71,7 @@ p {
   max-width: 40vh;
 }
 
-/* används inte riktigt men lämnar tills vidare*/
+/* används för att footern inte ska clippa in i något*/
 .bottom-content {
   padding-bottom: 5rem;
 }

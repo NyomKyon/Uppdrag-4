@@ -40,6 +40,11 @@ Med mer tid skulle jag kunnat skriva om mer av textera för att få bättre inne
 # Sammanfattning
 Kortfattat skulle jag säga att jag är relativt nöjd med resultatet, jag har följt figma skissen relativt väl och inga sidan går att navigara ganska väl. Jag känner att det var ett bra projekt för att vänja mig med alla element och bas programmeringen, jag vet vad som är dåligt och hur jag kan förbättra mina misstag, jag har haft mina svårigheter men med lite hjälp av tech support (min fantastiska vän som hjälpte mig komma in och förstå allt igen) så överkom jag det svårigheter jag hadde och kommer ut en bättre webbutvecklare
 
+# Uppdrag 5
+
+## W3 Validator
+
+All html checkad och alla fel återgärda.
 
 ## Källor/hjälpmedel
 
