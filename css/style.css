@@ -15,7 +15,7 @@ a {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h2 {
@@ -40,7 +40,7 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
-  padding-inline: 2rem;
+  padding-inline: 3rem;
 }
 
 .top-background {
@@ -203,13 +203,27 @@ a:hover::before {
 
 @media (max-width: 1270px){
   
-  .top-content {
-    max-width: 100%;
+  .navbar {
+    padding-inline: 1rem;
+  }
+
+  p {
+    padding-inline: 1rem;
   }
 
   .top-content {
-    padding-inline: 6rem;
+    padding-inline: 2rem;
     margin: 1rem;
+    max-width: 100%;
+  }
+
+  footer div{
+    width: 50%;
+
+  }
+
+  footer p {
+    margin-bottom: 1rem;
   }
 
   .bottom-top {
