@@ -29,16 +29,8 @@ button {
 }
 
 /* tranformerande css */
-.fullwidth input{
+.fullwidth input {
     width: 100%;
-}
-
-
-
-.flexdown {
-
-
-
 }
 
 .thanks {
@@ -49,6 +41,7 @@ button {
     width: 40vh;
     background-color: #e7e7e7;
 }
+
 input {
     font-size: large;
     background-color: #0000001e;
@@ -75,14 +68,16 @@ button:hover {
     padding: 10px;
 }
 
-@media (max-width: 1460px){
+@media (max-width: 1460px) {
     .footer {
-      position: relative;
+        position: relative;
     }
+
     .background {
         padding-inline: 0vh;
-        
+
     }
+
     input {
         width: 100%;
         margin: 0;
@@ -90,4 +85,4 @@ button:hover {
         padding-left: 0;
         margin-bottom: 1rem;
     }
-  }
+}

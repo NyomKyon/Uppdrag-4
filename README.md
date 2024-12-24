@@ -44,7 +44,17 @@ Kortfattat skulle jag säga att jag är relativt nöjd med resultatet, jag har f
 
 ## W3 Validator
 
-All html checkad och alla fel återgärda.
+All HTML checkad och alla fel återgärda.
+
+CSS
+* style.css inga errors
+* gradient.ss inga errors
+* contact
+
+## Hantering av tillägg i Wordpress
+Använde inte wordpress för detta arbete och har inget intressa av att göra det.
+
+## Optimering av bilder
 
 ## Källor/hjälpmedel
 
