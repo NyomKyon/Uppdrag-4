@@ -55,8 +55,22 @@ CSS
 Använde inte wordpress för detta arbete och har inget intressa av att göra det.
 
 ## Optimering av bilder
+använt mig av webp och ändrat storlek till bilderna för att vara under 1MB. Och behöver INGA tillägg för att det ska funka.
 
-## Källor/hjälpmedel
+## Optimesering & manifistering av css och javascript
+Ser inte hur? jag ska göra eller titta efter detta om jag inte läser igen koden flertal gånger och tittar om jag kan skippa/föränkla vissa delar av koden, specielt då jag har fixat text storleker.
+
+Den manifesteras exakt som jag vill och planerade att den ska, känner att jag har full kontroll över den, om det är något jag behöver ändra på så kan jag ändra på den.
+
+## Webbläsar test
+Testat i Brave & google browser och har testat den genom inspect elementet för att testa mobilanpassning
+
+## Tillgänglighet
+Går att navigera hela sidan med tab och enter och är mobilanpassad, inga kontrast errors förutom på mindre/icke viktiga länkar.
+
+
+
+# Källor/hjälpmedel
 
 [Figma skiss](https://www.figma.com/design/aQEryEqhIeMUtKT322nXbj/Uppdrag-3-del-2?node-id=0-1&p=f&t=VlWiiSX8nejtwoUU-0) 
 
